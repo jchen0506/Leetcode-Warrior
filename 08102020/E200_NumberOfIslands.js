@@ -22,6 +22,11 @@ Output: 3
 */
 
 var numberOfIslands = (grid) => {
+  //edge case, when grid is empty or not given;
+  if (grid === undefined || grid.length === 0) {
+    return 0;
+  }
+
   var result = 0;
   var m = grid.length;
   var n = grid[0].length;
