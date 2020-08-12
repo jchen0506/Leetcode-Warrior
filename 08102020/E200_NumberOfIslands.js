@@ -67,3 +67,5 @@ grid = [
   ['0', '0', '0', '1', '1'],
 ];
 console.log(numberOfIslands(grid));
+
+//O(m*n) m is row, n is column
